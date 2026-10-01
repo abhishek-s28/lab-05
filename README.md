@@ -2,12 +2,12 @@
 
 ## Student Details
 
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `Abhishek Shah`
+- **CCID:** `arshah2`
 
 ## References and Resources
 
-List any resources used here, or simply put `N/A` if not applicable.
+Lab 5 slides
 
 ## Verbal Collaboration
 
