@@ -7,11 +7,10 @@
 
 ## References and Resources
 
-Lab 5 slides
+Lab 5 slides, Some LLMs like Chat-GPT, TAs
 
 ## Verbal Collaboration
 
 | Student Name | CCID      |
 | ------------ | --------- |
-| `student`    | `student` |
-| `<Add more>` | `<CCID>`  |
+|     N/A      |    N/A    |
