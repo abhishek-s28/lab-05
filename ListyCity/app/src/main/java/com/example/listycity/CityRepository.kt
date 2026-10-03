@@ -31,7 +31,23 @@ class CityRepository {
         citiesRef.document(city.name).set(city)
     }
 
+//    fun updateCity(oldCity: City, updatedCity: City) {
+//        citiesRef.document(oldCity.name).set(updatedCity)
+//    }
+    /*
+    I switched up update city because if you press delete on updated city
+    it didn't work but now this update would also update the name in the firestore
+     */
     fun updateCity(oldCity: City, updatedCity: City) {
-        citiesRef.document(oldCity.name).set(updatedCity)
+        if (oldCity.name != updatedCity.name) {
+            citiesRef.document(oldCity.name).delete()
+            citiesRef.document(updatedCity.name).set(updatedCity)
+        } else {
+            citiesRef.document(oldCity.name).set(updatedCity)
+        }
+    }
+
+    fun deleteCity(city: City){
+        citiesRef.document(city.name).delete()
     }
 }
